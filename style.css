@@ -1,0 +1,481 @@
+* {
+    font-family: "kanit";
+}
+
+body {
+    margin: 0px;
+
+}
+
+.newsletter-bar {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 38px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newsletter-bar p {
+    opacity: 1;
+}
+.newsletter-bar a {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 96px;
+}
+
+.navbar h3 {
+    font-weight: 900;
+    font-size: 1.9em;
+    margin: 0px 60px 0px 40px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-right: 40px;
+    align-items: center;
+
+}
+
+.toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none; /* Initially hide the toggle button */
+  }
+  
+  .toggle-button .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+
+#product-search {
+    width: 30%;
+    height: 37px;
+    border-radius: 15px;
+    border: none;
+    background-color: #00000011;
+}
+
+.jumbotron {
+    background-image: url("./images/Rectangle\ 2.png");
+    background-size: cover;
+    background-repeat: none;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 68px;
+    font-weight: 900;
+}
+
+p {
+    opacity: .6;
+}
+
+.intro-container {
+    padding: 100px;
+    width: 40%;
+    max-width: 700px;
+}
+
+.intro-container h1 {
+    line-height: 80px;
+}
+
+#shopNow-button {
+    width: 210px;
+    height: 52px;
+    margin-top: 20px;
+    background-color: black;
+    border: none;
+    border-radius: 62px;
+    color: white;
+}
+
+.store-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    line-height: 70%;
+}
+
+.store-stats h3 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#highQ-products {
+    border-left: solid 1px rgba(0, 0, 0, 0.281);
+    border-right: solid 1px rgba(0, 0, 0, 0.295);
+    width: 250px;
+    text-align: center;
+}
+
+.featured-brands {
+    background-color: black;
+    max-width: 100%;
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-arrivals h2,
+.top-selling h2 {
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 55px;
+}
+
+
+.latest-products,
+.top-products {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 10% 0 10%;
+
+}
+
+
+.image-container {
+    text-align: center;
+    max-width: 300px;
+    border: 1px rgba(0, 0, 0, 0.164) solid;
+    padding: 25px;
+    background-color: #F2F0F1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 1px rgba(0, 0, 0, 0) solid;
+    border-radius: 30px;
+}
+
+.view-all-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.158);
+}
+
+.view-all-bttn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 51px;
+    width: 218px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: solid 1px rgba(0, 0, 0, 0.123);
+    border-radius: 62px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.view-all-bttn:hover {
+    background-color: #00000011;
+}
+
+.styles{
+    background-color: #F2F0F1;
+    max-width: 1239px;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.styles h2{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.style-links {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    width: 100%; 
+}
+
+.style-links h3{
+    margin-left: 14px;
+
+}
+
+.style-links > div {
+    flex: 0 0 auto; 
+    height: 289px; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.summer-evenings {
+    width: 407px; 
+    background-image: url("./images/products/summer evening.jpeg");
+}
+
+.holiday-drip {
+    width: 684px; 
+    background-image: url("./images/products/holiday drip.jpeg");
+    background-position: 25% 15%;
+}
+
+.formal {
+    width: 684px; 
+    background-image: url("./images/products/formal.jfif");
+    background-position: 25% 35%;
+}
+
+.sunglasses {
+    width: 407px; 
+    background-image: url("./images/products/sunglasses.jpeg");
+    margin-bottom: 30px;
+}
+
+.newsletter-signup{
+    background-color: black;
+    max-width: 1240px;
+    height: 180px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-container{
+    max-width: 551px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 64px;
+}
+
+.text-container h1{
+    font-size: 43px;
+    color: white;
+    margin-bottom: 0;
+}
+
+#newsletter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-right: 64px;
+}
+
+#newsletter-form input{
+    width: 349px;
+    height: 48px;
+    border-radius: 62px;
+    border: none;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.footer li{
+    margin-bottom: 7px;
+    color: #0000004d;
+    font-size: 15px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.socials{
+    width: 250px;
+}
+
+.socials i{
+    color: #00000071;
+    margin-right: 19px;
+}
+
+.footer-background{
+    background-color: #00000011;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav{
+        justify-content:center;
+        margin-right: 0px;
+        gap: 5%;
+    }
+  }
+@media only screen and (max-width: 1080px) {
+    .featured-brands{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .jumbotron{
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-container {
+        padding: 100px;
+        width: 100%;
+        text-align: center;
+
+    }
+  }
+
+  @media screen and (max-width: 921px){
+    .image-container {
+        width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+
+    .newsletter-signup{
+        height: 40%;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .intro-container{
+        padding:0 ;
+    }
+
+    .store-stats{
+        gap: 5%;
+    }
+
+    #newsletter-form, .text-container{
+        margin: 0px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #logo{
+        margin-right: 0;
+    }
+
+    .style-links > div {
+        width: 100%;
+    }
+
+    .nav {
+      display: none; 
+      flex-direction: column;
+      position: absolute;
+      top: 100px;
+      left: 25%;
+      line-height: 40px;
+      background-color: #000000a4;
+      color: #F2F0F1;
+      width: 20%;
+      box-sizing: border-box;
+    }
+
+    .nav li{
+        width: 100%;
+        text-align: center;
+    }
+    .nav li:hover{
+        background-color: #000000;
+    }
+  
+    .nav.active {
+      display: flex; 
+    }
+  
+    .toggle-button {
+      display: block; 
+    }
+  }
+
+
+  @media screen and (max-width: 921px){
+    .image-container {
+        width: 30%;
+        margin-bottom: 40px;
+    }
+  }
+
+  @media screen and (max-width: 550px){
+    .latest-products, .top-products {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 25px; 
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .image-container {
+        flex: 0 0 32%;
+        margin-bottom: 40px;
+
+    }
+
+    .footer{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .newsletter-signup{
+        height: 50%;
+
+    }
+  }
+  @media screen and (max-width: 440px){
+    .store-stats h3{
+        font-size: 1.5em;
+    }
+
+    .store-stats p{
+        font-size: 12px;
+    }
+  }

@@ -1,0 +1,197 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/08ce6d492f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- newsletter-bar -->
+      <div class="newsletter-bar">
+        <p>
+          Sign up and get 20% off your first order. <a href="#">Sign Up Now</a>
+        </p>
+      </div>
+
+      <!-- navbar -->
+      <div class="navbar">
+        <h3 id="logo">DRIP.CO</h3>
+        <ul class="nav">
+          <li>Shop</li>
+          <li>On Sale</li>
+          <li>New Arivals</li>
+          <li>Brands</li>
+        </ul>
+        <button class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <input
+          id="product-search"
+          type="text"
+          placeholder="Search for products.."
+        />
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-user"></i>
+      </div>
+
+      <!-- jumbotron -->
+      <div class="jumbotron">
+        <div class="intro-container">
+          <h1>FIND CLOTHES THAT MATCH YOUR STYLE</h1>
+          <p>
+            Browse through our diverse range of meticulously crafted garments,
+            designed to bring out your individuality and cater to your sense of
+            style.
+          </p>
+          <button id="shopNow-button">Shop Now</button>
+          <div class="store-stats">
+            <div id="int-brands">
+              <h3>200+</h3>
+              <p>Internation Brands</p>
+            </div>
+            <div id="highQ-products">
+              <h3>2,000+</h3>
+              <p>High-Quality Products</p>
+            </div>
+            <div id="happy-customers">
+              <h3>30,000+</h3>
+              <p>Happy Customers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="featured-brands">
+        <img src="./images/versace-logo.png" />
+        <img src="./images/zara-logo-1 1.png" />
+        <img src="./images/gucci-logo-1 1.png" />
+        <img src="./images/prada-logo-1 1.png" />
+        <img src="./images/ck-logo.png" />
+      </div>
+
+      <!-- new arrivals -->
+      <div class="new-arrivals">
+        <h2>NEW ARRIVALS</h2>
+        <div class="latest-products" id="latestProducts"></div>
+        <div class="view-all-container">
+          <button class="view-all-bttn">View All</button>
+        </div>
+      </div>
+
+      <!-- top selling -->
+      <div class="top-selling">
+        <h2>TOP SELLING</h2>
+        <div class="top-products" id="topProducts"></div>
+        <div class="view-all-container">
+          <button class="view-all-bttn">View All</button>
+        </div>
+      </div>
+
+      <!-- Shop by styles -->
+      <div class="styles">
+        <h2>SHOP BY STYLES</h2>
+        <div class="style-links">
+          <div class="summer-evenings">
+            <h3>SUMMER EVENINGS</h3>
+          </div>
+          <div class="holiday-drip">
+            <h3>HOLIDAY DRIP</h3>
+          </div>
+          <div class="formal">
+            <h3>FORMAL DRIP</h3>
+          </div>
+          <div class="sunglasses">
+            <h3>SUNGLASSES</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- newsletter -->
+      <div class="newsletter-signup">
+        <div class="text-container">
+          <h1>STAY UP TO DATE ABOUT OUR LATEST OFFERS</h1>
+        </div>
+        <form id="newsletter-form">
+          <input
+            type="text"
+            placeholder="Enter your email address"
+            name="email"
+          />
+          <input type="submit" value="Subscribe to Newsletter" />
+        </form>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer-background">
+        <div class="footer">
+          <div class="socials">
+            <h3>DRIP.CO</h3>
+            <p>We have clothes that suit your style and need.</p>
+            <div class="social-links">
+              <i class="fa-brands fa-square-x-twitter"></i>
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+          </div>
+          <div class="company">
+            <h4>COMPANY</h4>
+            <ul>
+              <li>About</li>
+              <li>Features</li>
+              <li>Works</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+          <div class="help">
+            <h4>HELP</h4>
+            <ul>
+              <li>Customer Support</li>
+              <li>Shipping</li>
+              <li>Tearms & Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="faq">
+            <h4>FAQ</h4>
+            <ul>
+              <li>Account</li>
+              <li>Deliveries</li>
+              <li>Orders</li>
+              <li>Retruns</li>
+            </ul>
+          </div>
+          <div class="resources">
+            <h4>RESOURCES</h4>
+            <ul>
+              <li>Free eBooks</li>
+              <li>Blog</li>
+              <li>Youtube</li>
+              <li>TikTok</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
