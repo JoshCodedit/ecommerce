@@ -348,6 +348,16 @@ p {
         gap: 5%;
     }
   }
+@media only screen and (max-width: 1127px) {
+    .styles{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .style-links > div {
+        width: 100%;
+    }
+
+  }
 @media only screen and (max-width: 1080px) {
     .featured-brands{
         flex-wrap: wrap;
@@ -415,7 +425,7 @@ p {
       line-height: 40px;
       background-color: #000000a4;
       color: #F2F0F1;
-      width: 20%;
+      width: 30%;
       box-sizing: border-box;
     }
 
@@ -451,13 +461,20 @@ p {
         overflow-x: auto;
         gap: 25px; 
         justify-content: center;
-        padding: 15px;
+        padding: 10px;
+    }
+    .latest-products p, .top-products p {
+        font-size: 13px;
     }
 
     .image-container {
         flex: 0 0 32%;
         margin-bottom: 40px;
+    }
 
+    .styles{
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .footer{
@@ -477,5 +494,29 @@ p {
 
     .store-stats p{
         font-size: 12px;
+    }
+
+    .newsletter-bar {
+        font-size: 14px;
+    }
+
+    #logo{
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 64px;
+        margin-top: 19px;
+    }
+  }
+  @media screen and (max-width: 400px){
+    h1 {
+        font-size: 55px;
+        margin-top: 19px;
+    }
+
+    .image-container {
+        flex: 0 0 30%;
+
     }
   }
